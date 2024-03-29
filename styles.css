@@ -1,0 +1,260 @@
+body {
+    height: 100%;
+    margin: 0;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 11px;
+    padding-left: 20px;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F4F4F4;
+}
+.input {
+    border: none;
+    background-color: #F8F8F8;
+    width: 85%;
+    padding: 14px 8px;
+    border-radius: 10px;
+    
+}
+.searchbar {
+    width: 55%;
+
+}
+
+.searchbar-1 {
+    background-color: #F8F8F8;
+    border: none;
+    width: 100%;
+    padding: 14px 8px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.address{
+    margin-left: 50px;
+    margin-bottom: 12px;
+    /* margin-right: 20px; */
+}
+
+.address>h3 {
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    margin: auto;
+    padding: auto;
+}
+.address>p{
+    margin: auto;
+    padding: auto;
+}
+.login-btn{
+    background-color: transparent;
+   border-color: transparent; 
+   margin: 10px;
+   padding: 10px 60px;
+   border-radius: 10px;
+   font-size: 15px;
+   color:grey;
+}
+.my-cart{
+    background-color: #0C831F;
+   margin: 10px;
+   padding: 14px 20px;
+
+   border-radius: 10px;
+}
+.shop-now>img{
+    width: 85%;
+}
+.shop-now{
+    text-align: center;
+    width:100%;
+}
+.category{
+    width: 70%;    
+   display: flex;
+   margin-left: 8%;
+   justify-content: flex-start;
+}
+.category>img{
+   width:30%;
+    padding: 10px;
+    margin: 0px;
+}
+.items{
+    width: auto;
+    display: flex;
+    margin-left: 7%;
+    margin-right: 8%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.items>img{
+    width: 10%;
+    /* height: 150px; */
+}
+
+
+
+.time{
+    font-size: 10px;
+    margin-left: 15px;
+    background-color: #F8F8F8;
+    width: fit-content;
+    font-weight: 700;
+}
+.bread>img{
+    text-align: center;
+   width: 100%;
+   /* margin-left: auto; */
+    /* width: 10%; */
+}
+.sandwich{
+    font-weight: 700;
+    /* width: 1px; */
+    /* text-align: left; */
+    /* width: fit-content; */
+    /* width: 0%; */
+    height: fit-content;
+   
+    margin-left: 15px;
+   
+}
+.weight{
+    font-weight: 200;
+    color: #696969;
+    margin-left: 15px;
+}
+.pr-btn{
+    /* width: 10%; */
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.pr-btn p{
+    margin-left: 15px;
+    font-weight: 900px;
+}
+.pr-btn button{
+    width: 50%;
+    height: 35px;
+    margin-left: auto;
+    background-color: #F7FFF9;
+    border: 1px solid #318616;
+    border-radius: 5px;
+}
+.bread{
+    border: 2px solid #F9F9F9;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 12%;
+    padding-right: 5px;
+   
+    display: inline-block;
+    
+}
+.inline-block{
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 85%;
+    margin-left: 7%;
+}
+h2{
+    margin-left: 7%;
+}
+.footer{
+    width: 85%;
+    margin-left: 7%;
+     display: flex;
+    /* justify-content: space-between; */
+    
+}
+h3{
+    font-weight: 600;
+}
+.ftable{
+    width: 100%;
+    color: #9A9A9A;
+    
+}
+.ftable-1{
+    width: 100%;
+    color: #9A9A9A;
+    
+}
+.display-table{
+    width: 33%;
+    
+}
+.display-table-1{
+    width: 67%;
+}
+td{
+    margin-top: 2px;;
+}
+.footer2{
+    width: 85%;
+    margin-left: 7%;
+    margin-right: 8%;
+}
+.foot{
+    display: flex;
+}
+.footer2-part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid grey; */
+    background-color: #FCFCFC;
+    
+}
+.blink
+{
+    width: 33%;
+    
+}
+.download{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.download img{
+    width: 25%;
+
+}
+.blink>p{
+    color: #666666;
+}
+.download>p{
+    color: #6F6F6F;
+}
+/* .download,.fb */
+
+.fb{
+    width: 33%;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 12%;
+}
+
+.fa-facebook,.fa-twitter,.fa-square-instagram,.fa-linkedin,.fa-telegram{
+    font-size: 30px;
+}
+.footer3{
+    width: 85%;
+    margin-left: 7%;
+    margin-right: 8%;
+    background-color: #FCFCFC;
+}
+.footer3 p{
+    color: #757575;
+}
+
